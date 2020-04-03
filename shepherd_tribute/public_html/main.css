@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 3, 2020, 12:08:55 PM
+    Author     : scott
+*/
+ #main {
+     /* set global font size */
+     font-size: 12px;
+ }
+ 
+ body {
+     background-color: wheat;
+ }
+ 
+ h1 {
+     font-size: 2em;
+     text-align: center;
+     color: rgb(24, 32, 32);
+     font-family: 'Walter Turncoat', cursive;
+ }
+ 
+ img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 600px;
+     position: relative;
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4)
+ }
+ .quoteFormat {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 400px;
+     font-size: 1.5em;
+     text-align: justify;
+     
+ }
+ 
+ .listFormat {
+     
+ }
+ 
+ .footer {
+     
+ }
