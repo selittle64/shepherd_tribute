@@ -17,7 +17,7 @@ and open the template in the editor.
  }
  
  h1 {
-     font-size: 2em;
+     font-size: 2.5em;
      text-align: center;
      color: rgb(24, 32, 32);
      font-family: 'Walter Turncoat', cursive;
@@ -38,10 +38,24 @@ and open the template in the editor.
      width: 400px;
      font-size: 1.5em;
      text-align: justify;
+     font-family: 'Special Elite', cursive;
      
  }
  
+ h2 {
+     text-align: center;
+     font-family: 'Walter Turncoat', cursive;
+ }
+ .timeLine {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 700px;
+     font-size: 1.5em;
+     font-family: 'Special Elite', cursive;
+ }
  .listFormat {
+     
      
  }
  
