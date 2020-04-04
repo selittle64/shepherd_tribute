@@ -1,64 +1,92 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 3, 2020, 12:08:55 PM
-    Author     : scott
-*/
- #main {
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Walter+Turncoat&display=swap');
+
+
+html {
      /* set global font size */
      font-size: 12px;
  }
- 
- body {
-     background-color: wheat;
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #F5DEB3;
+}
+
+  #title {
+  font-size: 2.5em;
+  text-align: center;
+  color: rgb(24, 32, 32);
+  font-family: 'Walter Turncoat', cursive;
  }
  
- h1 {
-     font-size: 2.5em;
-     text-align: center;
-     color: rgb(24, 32, 32);
-     font-family: 'Walter Turncoat', cursive;
+#img-div {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #F5DEB3;
+}
+
+ #image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 600px;
+  position: relative;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
  }
- 
- img {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 600px;
-     position: relative;
-     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4)
- }
+
+#img-caption {
+  font-size: 1.7em;
+  text-align: center;
+  color: rgb(24, 32, 32);
+  font-family: 'Walter Turncoat', cursive;
+}
+
  .quoteFormat {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 400px;
-     font-size: 1.5em;
-     text-align: justify;
-     font-family: 'Special Elite', cursive;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 400px;
+   font-size: 1.5em;
+   text-align: justify;
+   font-family: 'Special Elite', cursive;
      
  }
  
  h2 {
-     text-align: center;
-     font-family: 'Walter Turncoat', cursive;
+   text-align: center;
+   font-family: 'Walter Turncoat', cursive;
  }
+
+ h3 {
+   font-size: 1em;    
+   text-align: center;
+   font-family: 'Walter Turncoat', cursive;
+      
+}
+
  .timeLine {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 700px;
-     font-size: 1.5em;
-     font-family: 'Special Elite', cursive;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 700px;
+   font-size: 1.5em;
+   font-family: 'Special Elite', cursive;
  }
- .listFormat {
-     
-     
- }
- 
- .footer {
-     
- }
+
+#tribute-info {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   background: #F5DEa3;
+}
+
+#tribute-link {
+    color: #000;
+  }
+
+ #tribute-link:hover {
+  color: blue;
+}
